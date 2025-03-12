@@ -39,7 +39,7 @@
     "@types/three": "^0.157.2",
     "autoprefixer": "^10.4.15",
     "hotscript": "^1.0.13",
-    "monaco-editor": "^0.44.0",
+    "monaco-editor": "^0.52.2",
     "postcss": "^8.4.29",
     "publint": "^0.2.5",
     "svelte": "^5.14.1",
