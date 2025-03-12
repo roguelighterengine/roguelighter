@@ -1,5 +1,6 @@
 import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig, type Plugin } from 'vite';
+import pkg from './package.json';
 
 const viteServerConfig: Plugin = {
   name: 'add headers',
@@ -29,5 +30,8 @@ export default defineConfig({
     //     }
     //   }
     // }
+  },
+  ssr: {
+    noExternal: Object.keys(pkg.dependencies || {})
   }
 });
